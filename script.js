@@ -2,6 +2,7 @@ const b=document.querySelector('body')
 
 const para=document.createElement('p')
 para.textContent="Draw Here"
+para.style.fontSize = "40px"
 b.appendChild(para)
 
 const cont=document.createElement("div")
